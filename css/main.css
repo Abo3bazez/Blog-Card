@@ -1,0 +1,99 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  background-color: #f4d04e;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body .attribution {
+  margin: 1.3rem 0;
+}
+body .attribution a {
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+body .attribution a:not(:last-child) {
+  margin-bottom: 0.65rem;
+}
+body .content-card {
+  background-color: white;
+  margin: auto 1.5rem;
+  padding: 1.2rem;
+  border-radius: 20px;
+  outline: 1px solid #121212;
+  -webkit-box-shadow: 9px 9px 1px 1px #121212;
+  box-shadow: 9px 9px 1px 1px #121212;
+  position: relative;
+}
+body .content-card:hover .article-name {
+  color: #f4d04e;
+}
+body .content-card .illustration-article {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+body .content-card span {
+  display: block;
+}
+body .content-card .category {
+  font-weight: bold;
+  padding: 0.6rem 0.8rem;
+  background-color: #f4d04e;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+body .content-card .date {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+body .content-card .article-name {
+  font-size: 1.4rem;
+  text-wrap: nowrap;
+  font-weight: 800;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+body .content-card .article-info {
+  color: #6b6b6b;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  font-size: 0.91rem;
+}
+body .content-card .creator-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+body .content-card .creator-info .creator-avatar {
+  width: 2.4rem;
+  margin-right: 0.6rem;
+}
+body .content-card .creator-info .creator-name {
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=main.css.map */
