@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Repo](https://github.com/Abo3bazez/Recipe-Page)
-- Live Site URL: [Live Site](https://abo3bazez.github.io/Recipe-Page/)
+- Solution URL: [Solution Repo](https://github.com/Abo3bazez/Blog-Card)
+- Live Site URL: [Live Site](https://abo3bazez.github.io/Blog-Card/)
 
 ## My process
 
